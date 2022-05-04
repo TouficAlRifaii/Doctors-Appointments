@@ -66,10 +66,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/toSignUp"
+        android:id="@+id/toLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:onClick="toSignUp"
         android:text="Don't have an account? Join us"
         android:textColor="#0EBE7F"
         android:textSize="20sp"
