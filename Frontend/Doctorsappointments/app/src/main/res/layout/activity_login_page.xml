@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:height="60dp"
         android:backgroundTint="#0EBE7F"
+        android:onClick="logIn"
         android:text="Login"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

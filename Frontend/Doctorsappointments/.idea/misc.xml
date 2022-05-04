@@ -4,13 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/KIRA/AndroidStudioProjects/Doctorsappointments/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/drawable/home_icon.xml" value="0.184" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/drawable/ic_login_screen_01.xml" value="0.1785" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/drawable/ic_splash_screen.xml" value="0.1785" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/drawable/ic_splash_screen__1_.xml" value="0.1785" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.17552083333333332" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_doctors_page.xml" value="0.17552083333333332" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_landing_page.xml" value="0.14130434782608695" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_login_page.xml" value="0.14130434782608695" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/activity_sign_up_page.xml" value="0.17552083333333332" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/content_doctors_page.xml" value="0.17552083333333332" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/layout/settings_activity.xml" value="0.17552083333333332" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/xampp/htdocs/Doctors' appointments/Frontend/Doctorsappointments/app/src/main/res/menu/bottom_navigation.xml" value="0.3046875" />
       </map>
     </option>
   </component>
