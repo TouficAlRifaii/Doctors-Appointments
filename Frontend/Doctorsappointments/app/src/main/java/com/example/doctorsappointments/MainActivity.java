@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         Handler handler = new Handler();
         Intent intent;
-        intent = new Intent(this, LandingPage.class);
+        intent = new Intent(this, LoginPage.class);
         handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
