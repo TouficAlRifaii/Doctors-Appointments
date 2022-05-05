@@ -10,17 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DoctorsAppointments">
         <activity
-            android:name=".DoctorsPage"
+            android:name=".Profile"
             android:exported="false" />
+        <activity
+            android:name=".DoctorsPage"
+            android:exported="false"
+            android:label="Doctors" />
         <activity
             android:name=".FavoritesPage"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Favorites" />
         <activity
             android:name=".HomePage"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Home" />
         <activity
             android:name=".Menu"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Menu" />
         <activity
             android:name=".SignUpPage"
             android:exported="false" />

@@ -9,6 +9,6 @@ public class DoctorsPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_doctors_page2);
+        setContentView(R.layout.activity_doctors_page);
     }
 }
