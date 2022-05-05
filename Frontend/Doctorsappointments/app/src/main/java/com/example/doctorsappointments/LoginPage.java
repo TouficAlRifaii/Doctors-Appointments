@@ -129,7 +129,7 @@ public class LoginPage extends AppCompatActivity {
                 HttpClient httpClient = new DefaultHttpClient();
 
 
-                HttpPost httpPost = new HttpPost("http://192.168.1.64/FinalProject/backend/login.php");
+                HttpPost httpPost = new HttpPost("http://192.168.1.64/Doctors' appointments/backend/login.php");
 
 
                 BasicNameValuePair emailBasicNameValuePair = new BasicNameValuePair("email", paramEmail);
