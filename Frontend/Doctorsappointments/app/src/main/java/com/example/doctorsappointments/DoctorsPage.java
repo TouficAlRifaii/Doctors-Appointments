@@ -18,5 +18,6 @@ public class DoctorsPage extends AppCompatActivity {
     }
     public void backToMenu(View v){
         startActivity(new Intent(getApplicationContext(),Menu.class));
+
     }
 }

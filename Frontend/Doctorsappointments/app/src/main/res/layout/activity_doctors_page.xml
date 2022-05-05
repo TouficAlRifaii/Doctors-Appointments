@@ -29,6 +29,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="464dp"
         android:backgroundTint="#0EBE7F"
+        android:onClick="chooseDr"
         android:text="dr1 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -40,6 +41,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="92dp"
         android:backgroundTint="#0EBE7F"
+        android:onClick="chooseDr"
         android:text="dr5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -48,9 +50,10 @@
         android:id="@+id/menu"
         android:layout_width="136dp"
         android:layout_height="64dp"
-        android:backgroundTint="#0EBE7F"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#0EBE7F"
+        android:onClick="backToMenu"
         android:text="go back to menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -62,6 +65,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="184dp"
         android:backgroundTint="#0EBE7F"
+        android:onClick="chooseDr"
         android:text="dr4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -73,6 +77,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="280dp"
         android:backgroundTint="#0EBE7F"
+        android:onClick="chooseDr"
         android:text="dr3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -84,6 +89,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="368dp"
         android:backgroundTint="#0EBE7F"
+        android:onClick="chooseDr"
         android:text="dr 2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

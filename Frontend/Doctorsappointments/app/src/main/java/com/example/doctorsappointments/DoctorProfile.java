@@ -24,4 +24,7 @@ public class DoctorProfile extends AppCompatActivity {
     public void back(View v){
         startActivity(new Intent(getApplicationContext(),Menu.class));
     }
+    public void addToFav(View v){
+        //link to database and add this dr to the user's favorites
+    }
 }

@@ -14,6 +14,10 @@ public class SignUpPage extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up_page);
         getSupportActionBar().hide();
     }
+    public void signup(View v){
+        //link to database
+        startActivity(new Intent(getApplicationContext(),Menu.class));
+    }
     public void toLogin(View v){
         Intent intent = new Intent(this , LoginPage.class);
         startActivity(intent);
