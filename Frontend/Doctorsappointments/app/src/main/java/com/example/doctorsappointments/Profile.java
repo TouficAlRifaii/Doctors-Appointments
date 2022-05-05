@@ -16,7 +16,7 @@ public class Profile extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-        
+
 
     }
     public void goBack(View v){
