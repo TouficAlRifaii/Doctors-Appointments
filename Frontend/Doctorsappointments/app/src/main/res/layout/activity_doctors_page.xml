@@ -4,7 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoctorsPage">
+    tools:context=".DoctorsPage"
+    android:background="@drawable/ic_splash_screen__1_">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="108dp"
+        android:text="Doctors"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
 
+    <Button
+        android:id="@+id/drOne"
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="464dp"
+        android:backgroundTint="#0EBE7F"
+        android:text="dr1 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/drFive"
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#0EBE7F"
+        android:text="dr5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="136dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#0EBE7F"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="go back to menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/drFour"
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="#0EBE7F"
+        android:text="dr4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/drThree"
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="280dp"
+        android:backgroundTint="#0EBE7F"
+        android:text="dr3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/drTwo"
+        android:layout_width="373dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="368dp"
+        android:backgroundTint="#0EBE7F"
+        android:text="dr 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
