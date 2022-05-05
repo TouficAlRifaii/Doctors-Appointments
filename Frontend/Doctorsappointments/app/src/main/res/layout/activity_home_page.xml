@@ -8,18 +8,50 @@
     tools:context=".HomePage">
 
     <GridLayout
-        android:layout_width="0dp"
+        android:layout_width="410dp"
 
-        android:layout_height="200dp"
+        android:layout_height="563dp"
         android:layout_margin="2dp"
         android:columnCount="2"
         android:rowCount="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.50"
-        >
+        app:layout_constraintVertical_bias="0.851">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="202dp"
+            android:layout_height="174dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:onClick="visitDoc"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/icDr2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/drimg1" />
+
+                <TextView
+                    android:id="@+id/txtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icDr2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Dr. Mistry Brick \nMedicine Specialist" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -27,14 +59,13 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
-            android:onClick="toHome"
+            android:onClick="visitDoc"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/icDr1"
@@ -44,6 +75,7 @@
                     android:src="@drawable/drimg1" />
 
                 <TextView
+                    android:id="@+id/txtv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/icDr1"
@@ -59,26 +91,58 @@
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
-            android:onClick="toHome"
+            android:onClick="visitDoc"
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/icDr2"
+                    android:id="@+id/icDr3"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
                     android:src="@drawable/drimg1" />
 
                 <TextView
+                    android:id="@+id/txtv3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/icDr2"
+                    android:layout_below="@+id/icDr3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Dr. Mistry Brick \nMedicine Specialist" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:onClick="visitDoc"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/icDr4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/drimg1" />
+
+                <TextView
+                    android:id="@+id/txtv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/icDr4"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="5dp"
                     android:text="Dr. Mistry Brick \nMedicine Specialist" />

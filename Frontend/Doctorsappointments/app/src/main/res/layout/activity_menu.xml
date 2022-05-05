@@ -127,14 +127,16 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:onClick="toProfile">
 
                 <ImageView
                     android:id="@+id/icProfile"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/profileico" />
+                    android:onClick="toProfile"
+                    android:src="@drawable/imgp" />
 
                 <TextView
                     android:layout_width="wrap_content"

@@ -24,5 +24,9 @@ public class Menu extends AppCompatActivity {
     public void toDoctors (View v) {
         startActivity(new Intent(this , DoctorsPage.class));
     }
+    public void toProfile (View v) {
+        startActivity(new Intent(this , Profile.class));
+    }
+
 
 }
