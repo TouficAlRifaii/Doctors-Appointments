@@ -35,18 +35,7 @@ public class HomePage extends AppCompatActivity {
     }
     public void visitDoc(View v){
         Intent i = new Intent(getApplicationContext(),DoctorProfile.class);
-        if (v.getId()==img_id1){
-            i.putExtra("key",dr_name.getText().toString());
-        }
-        if (v.getId()==img_id2){
-            i.putExtra("key",dr_name1.getText().toString());
-        }
-        if (v.getId()==img_id3){
-            i.putExtra("key",dr_name2.getText().toString());
-        }
-        if (v.getId()==img_id4){
-            i.putExtra("key",dr_name3.getText().toString());
-        }
+        //check phone number of dr and then change to the other activity with the data so that i can customize ir as i see fit
         startActivity(i);
     }
 }

@@ -8,8 +8,9 @@
     tools:context=".HomePage">
 
     <GridLayout
-        android:layout_width="410dp"
+        android:id="@+id/gridLayout"
 
+        android:layout_width="410dp"
         android:layout_height="563dp"
         android:layout_margin="2dp"
         android:columnCount="2"
